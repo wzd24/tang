@@ -1,0 +1,15 @@
+﻿<Project>
+  <PropertyGroup>
+    <VersionMajor>1</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <VersionPatch>1</VersionPatch>
+    <VersionBuild>12</VersionBuild>
+    <VersionSuffix>alpha.0</VersionSuffix>
+    <VersionPrefix>$(VersionMajor).$(VersionMinor).$(VersionPatch)</VersionPrefix>
+    <AssemblyVersion>$(VersionPrefix).$(VersionBuild)</AssemblyVersion>
+    <ScorpioVersion>0.1.2</ScorpioVersion>
+    <InfrastructureVersion>1.1.16</InfrastructureVersion>
+    <OrleansVersion>7.0.0</OrleansVersion>
+    <RefrenceType>project</RefrenceType>
+  </PropertyGroup>
+</Project>

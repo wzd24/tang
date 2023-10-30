@@ -1,0 +1,15 @@
+﻿<Project>
+  <PropertyGroup>
+    <Authors>Zidan.Wang</Authors>
+    <Company>Xiamen Sailina</Company>
+    <Copyright>Copyright ©  2021-2021 Sailina</Copyright>
+    <Product>Tang</Product>
+    <Description>大唐盛世账号服务项目</Description>
+    <PackageProjectUrl>https://codeup.aliyun.com/6004e02f640593207be31131/SSDT/Server/tang</PackageProjectUrl>
+    <RepositoryUrl>https://codeup.aliyun.com/6004e02f640593207be31131/SSDT/Server/tang</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup >
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+</Project>

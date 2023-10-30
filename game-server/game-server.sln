@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89948FE0-444F-419E-A861-77F9D3545D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{1338BF33-7766-4F92-9F8C-863C525D408E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorpio.Tang.Core.Abstract", "src\core\Scorpio.Tang.Core.Abstract\Scorpio.Tang.Core.Abstract.csproj", "{5635EC2C-AD45-46C9-81B1-C3B468D70CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorpio.Tang.Core", "src\core\Scorpio.Tang.Core\Scorpio.Tang.Core.csproj", "{F916326C-D877-48FA-AE94-92525BBFFFD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{1D101002-6638-4A53-9273-61B133537CB4}"
+	ProjectSection(SolutionItems) = preProject
+		src\common.props = src\common.props
+		src\Directory.Build.props = src\Directory.Build.props
+		src\versions.props = src\versions.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{EAB7BCB5-0FF0-4523-B1A6-7817BAD8C708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorpio.Bougainvillea", "..\framework\src\Scorpio.Bougainvillea\Scorpio.Bougainvillea.csproj", "{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scorpio.Bougainvillea.Abstractions", "..\framework\src\Scorpio.Bougainvillea.Abstractions\Scorpio.Bougainvillea.Abstractions.csproj", "{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5635EC2C-AD45-46C9-81B1-C3B468D70CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5635EC2C-AD45-46C9-81B1-C3B468D70CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5635EC2C-AD45-46C9-81B1-C3B468D70CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5635EC2C-AD45-46C9-81B1-C3B468D70CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F916326C-D877-48FA-AE94-92525BBFFFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F916326C-D877-48FA-AE94-92525BBFFFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F916326C-D877-48FA-AE94-92525BBFFFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F916326C-D877-48FA-AE94-92525BBFFFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1338BF33-7766-4F92-9F8C-863C525D408E} = {89948FE0-444F-419E-A861-77F9D3545D48}
+		{5635EC2C-AD45-46C9-81B1-C3B468D70CCE} = {1338BF33-7766-4F92-9F8C-863C525D408E}
+		{F916326C-D877-48FA-AE94-92525BBFFFD7} = {1338BF33-7766-4F92-9F8C-863C525D408E}
+		{2ADEB9F8-716E-4838-B7C2-2DE64C8A6EA6} = {EAB7BCB5-0FF0-4523-B1A6-7817BAD8C708}
+		{69A5CBAF-C589-4F2A-BEEF-EF13E54F3F9E} = {EAB7BCB5-0FF0-4523-B1A6-7817BAD8C708}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {937A1D8A-CB5B-4661-AA37-8E91C4282C86}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.EventSourcing" Version="$(OrleansVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\framework\src\Scorpio.Bougainvillea.Abstractions\Scorpio.Bougainvillea.Abstractions.csproj" />
+    <ProjectReference Include="..\Scorpio.Tang.Core.Abstract\Scorpio.Tang.Core.Abstract.csproj" />
+  </ItemGroup>
+
+</Project>

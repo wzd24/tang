@@ -1,0 +1,12 @@
+﻿<Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Build.props, $(MSBuildThisFileDirectory)../))" Condition=" '$([MSBuild]::GetPathOfFileAbove(Directory.Build.props, $(MSBuildThisFileDirectory)../))' != '' "/>
+  <Import Project="versions.props" />
+  <Import Project="common.props"/>
+
+  <ItemGroup>
+    <PackageReference Include="Scorpio" Version="$(ScorpioVersion)"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="$(OrleansVersion)" />
+  </ItemGroup>
+</Project>
